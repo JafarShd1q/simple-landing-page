@@ -1,0 +1,9 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    color: white; /* Agar teks lebih mudah dibaca di background merah */
+}
