@@ -1,0 +1,11 @@
+# Menggunakan image resmi Nginx
+FROM nginx:latest
+
+# Menyalin file HTML ke direktori default Nginx
+COPY index.html /usr/share/nginx/html/index.html
+
+# Port yang digunakan Nginx
+EXPOSE 80
+
+# Menjalankan Nginx di foreground
+CMD ["nginx", "-g", "daemon off;"]
